@@ -1,7 +1,9 @@
 import React from 'react';
 import { render } from 'react-dom';
+import Main from './App';
 
 const root = document.querySelector('#app-frame');
+
 
 const App = () => (
   <>
@@ -10,6 +12,7 @@ const App = () => (
       <span role="img" aria-label="tada">
         🎉
       </span>
+      <Main />
     </h1>
   </>
 );
